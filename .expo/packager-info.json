@@ -1,0 +1,9 @@
+{
+  "expoServerNgrokUrl": "https://4y-iu7.jesperwi.android-chat.exp.direct",
+  "packagerNgrokUrl": "https://packager.4y-iu7.jesperwi.android-chat.exp.direct",
+  "ngrokPid": 11164,
+  "webpackServerPort": 19006,
+  "expoServerPort": 19000,
+  "devToolsPort": 19002,
+  "packagerPort": 19000
+}
