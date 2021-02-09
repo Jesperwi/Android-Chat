@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="351a9ef3-e305-48c2-8d68-d86a4bfc21a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mkfQkKFualMGdhlXCkH2Yisd9M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="351a9ef3-e305-48c2-8d68-d86a4bfc21a2" name="Default Changelist" comment="" />
+      <created>1610042497999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610042497999</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="75" y="158" width="1014" height="591" key="AVDManager" timestamp="1610280887605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="416" y="211" width="1208" height="654" key="AVDManager/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1610220025407" />
+    <state x="75" y="158" width="1014" height="591" key="AVDManager/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1610280887605" />
+    <state x="2288" y="184" key="AndroidCreateResourceDirectoryDialog" timestamp="1610140933753">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2288" y="184" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1610140933753" />
+    <state x="2592" y="160" key="FileChooserDialogImpl" timestamp="1610094338571">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2592" y="160" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1610094338571" />
+    <state x="2136" y="46" key="SettingsEditor" timestamp="1610220432895">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="521" y="182" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1610220222665" />
+    <state x="2136" y="46" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1610220432895" />
+  </component>
+</project>
