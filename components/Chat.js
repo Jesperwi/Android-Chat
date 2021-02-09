@@ -2,9 +2,8 @@ import React from 'react';
 import AsyncStorage from '@react-native-community/async-storage';
 import NetInfo from '@react-native-community/netinfo';
 import { View, Text, StyleSheet, KeyboardAvoidingView, Platform } from 'react-native';
-import { GiftedChat, Bubble } from 'react-native-gifted-chat';
-
-import { MapView } from 'react-native-maps';
+import { Bubble, GiftedChat } from 'react-native-gifted-chat';
+import MapView from 'react-native-maps';
 import CustomActions from './CustomActions';
 
 const firebase = require('firebase');
@@ -18,8 +17,6 @@ export default class Chat extends React.Component {
       messages: [],
       uid: 0,
       isConnected: false,
-      image: null,
-      location: null
     };
 
     if (!firebase.apps.length) {
@@ -108,7 +105,7 @@ handleConnectivityChange(state) {
     this.setState({
       isConnected: true,
     });
-    this.unsubscribe = this.referenceChatMessages.orderBy('createdAt', 'desc')
+    this.unsubscribe = this.referenceChatMessages.orderBy("createdAt", "desc")
     .onSnapshot(this.onCollectionUpdate);
   } else {
     this.setState({
@@ -129,7 +126,7 @@ onCollectionUpdate = (querySnapshot) => {
       text: data.text,
       createdAt: data.createdAt.toDate(),
       user: data.user,
-      image: data.image || null,
+      image: data.image || '',
       location: data.location || null,
     });
   });
@@ -143,7 +140,7 @@ addMessage = () => {
   const message = this.state.messages[0];
   this.referenceChatMessages && this.referenceChatMessages.add({
     _id: message._id,
-    text: message.text || "",
+    text: message.text || '',
     createdAt: message.createdAt,
     user: message.user,
     image: message.image || null,
@@ -163,7 +160,7 @@ onSend = (messages = []) => {
   );
 }
 
-renderBubble = (props) => {
+renderBubble(props) {
   return (
     <Bubble
       {...props}
@@ -173,7 +170,7 @@ renderBubble = (props) => {
         }
       }}
     />
-  )
+  );
 }
 
 // here we render the customAction component inside the chat component

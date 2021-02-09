@@ -4,9 +4,8 @@ import * as Permissions from 'expo-permissions';
 import * as ImagePicker from 'expo-image-picker';
 import * as Location from 'expo-location';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-
-const firebase = require('firebase');
-require('firebase/firestore');
+import firebase from 'firebase';
+import 'firebase/firestore';
 
 export default class CustomActions extends React.Component {
   // this code lets the user pick an image they want to send with permission access
@@ -101,6 +100,7 @@ getLocation = async () => {
     console.log(error.message);
   }
 };
+
 onActionPress = () => {
   const options = [
     "Choose From Library",
